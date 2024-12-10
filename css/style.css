@@ -1,0 +1,104 @@
+.bg-main {
+  background-color: #1e202b;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #009ad8;
+  border: #009ad8 solid 0.125rem;
+  border-radius: 100vh 100vh;
+  padding: 0 10px;
+  margin: 0;
+}
+.nav-item {
+  padding: 0 20px;
+}
+
+input::placeholder {
+  color: gray !important;
+}
+.find-location {
+  position: relative;
+}
+#search {
+  width: 100%;
+  background-color: #1e202b;
+  margin: 0 0;
+  color: white;
+  border-radius: 100vh 100vh;
+  padding: 10px 20px;
+}
+#submit {
+  position: absolute;
+  right: 1%;
+  bottom: 50%;
+  transform: translateY(50%);
+  background-color: #009ad8;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 100vh 100vh;
+}
+.site-footer input[placeholder] {
+  width: 100%;
+  background-color: #1e202b;
+  margin: 0 0;
+  color: white;
+  border-radius: 100vh 100vh;
+  padding: 10px 20px;
+  position: relative;
+}
+.subscribe-form{
+    position: relative;
+}
+.site-footer input[placeholder]:focus {
+  border: solid 2px #009ad8;
+}
+.site-footer input[value] {
+  position: absolute;
+  right: 1%;
+  bottom: 50%;
+  transform: translateY(50%);
+ 
+  background-color: #009ad8;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 100vh 100vh;
+}
+
+.forecast-header {
+  background-color: #1e202b;
+}
+.forecast {
+  background-color: #323544;
+
+}
+
+.custom {
+  color: #009ad8;
+}
+.site-footer {
+  background-color: #1e202b;
+}
+a {
+  color: #009ad8;
+}
+#total {
+  background-image: url(../images/banner.png);
+  background-position: center center;
+  background-size: cover;
+}
+ul {
+  list-style: none;
+}
+footer li {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: all 0.25s;
+}
+footer li:hover {
+  border: solid 2px #009ad8;
+}
+footer li:hover a {
+  color: white;
+}
